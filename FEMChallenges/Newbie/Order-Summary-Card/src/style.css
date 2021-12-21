@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+    --active-blue : #766cf1;
+
+    --white: #ffffff;
+}
+body {
+    min-height: 100%;
+    background-color: var(--pale-blue);
+    background-image: url('../images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+}
+main {
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GENERAL CLASSES */
+
+.text-bold {
+    font-weight: 900;
+}
+.btn {
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+.btn-submit {
+    color: var(--white);
+    background-color: var(--bright-blue);
+    border-radius: .5rem;
+    box-shadow: 0 1rem 1rem -.5rem #3829e077;
+}
+.btn-submit:hover {
+    cursor: pointer;
+    background-color: var(--active-blue);
+}
+.btn-cancel {
+    color: var(--desaturated-blue);
+    background-color: transparent;
+}
+.btn-cancel:hover {
+    cursor: pointer;
+    color: var(--dark-blue);
+}
+
+/* CARD SPECIFIC */
+
+.card-container {
+    width: 85%;
+    min-width: 315px;
+    border-radius: 1rem;
+    background-color: var(--white);
+    box-shadow: 0px 1rem 1.5rem -1.5rem #7280a777;
+}
+.card-container img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.card-content h1 {
+    text-align: center;
+    margin: .5rem 0 0 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+.card-content p {
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.5rem;
+    color: var(--desaturated-blue);
+}
+
+.card-content__plan {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: .5rem;
+    background-color: var(--very-pale-blue);
+}
+.card-content__plan img {
+    width: 3rem;
+    margin: 0 .5rem;
+}
+.card-content__plan-info {
+    flex-grow: 1;
+    padding: .5rem;
+}
+.card-content__plan-info span {
+    color: var(--desaturated-blue);
+}
+.card-content__plan-info span.text-bold {
+    color: var(--dark-blue);
+}
+.card-content a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--bright-blue);
+    margin: 0 .5rem;
+}
+.card-content a:hover {
+    color: var(--active-blue);
+    text-decoration: none;
+}
+.card-content button {
+    width: 100%;
+    padding: 1rem;
+}
+
+/* FOOTER */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-image: url('../images/pattern-background-desktop.svg');
+    }
+    .card-container {
+        max-width: 30%;
+    }
+    .card-content {
+        padding: 1.5rem 2rem;
+    }
+    .card-content h1 {
+        font-size: 1.75rem;
+    }
+}
