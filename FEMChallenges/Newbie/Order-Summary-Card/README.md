@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click to go to Github repository](https://github.com/GianK128/GianK128.github.io/FEMChallenges/Newbie/Order-Summary-Card).
+- Solution URL: [Click to go to Github repository](https://github.com/GianK128/GianK128.github.io/tree/master/FEMChallenges/Newbie/Order-Summary-Card).
 - Live Site URL: [Click to go to Github Pages](https://GianK128.github.io/FEMChallenges/Newbie/Order-Summary-Card).
 
 ## My process
