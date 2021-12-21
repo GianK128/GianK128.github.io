@@ -8,3 +8,4 @@ Lista de desafíos completados ordenados por dificultad y orden de realización.
 
 - **Newbie**:
     - [NFT Card Component](./FEMChallenges/Newbie/NFT-Preview/) | [Webpage](https://GianK128.github.io/FEMChallenges/Newbie/NFT-Preview/)
+    - [Order Summary Card Component](./FEMChallenges/Newbie/Order-Summary-Card/) | [Webpage](https://GianK128.github.io/FEMChallenges/Newbie/Order-Summary-Card/)
