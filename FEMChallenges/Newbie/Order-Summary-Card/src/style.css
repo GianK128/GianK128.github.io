@@ -47,6 +47,7 @@ main {
     background-color: var(--bright-blue);
     border-radius: .5rem;
     box-shadow: 0 1rem 1rem -.5rem #3829e077;
+    transition: all .4s ease;
 }
 .btn-submit:hover {
     cursor: pointer;
@@ -55,6 +56,7 @@ main {
 .btn-cancel {
     color: var(--desaturated-blue);
     background-color: transparent;
+    transition: all .4s ease;
 }
 .btn-cancel:hover {
     cursor: pointer;
@@ -113,6 +115,7 @@ main {
     padding: .5rem;
 }
 .card-content__plan-info span {
+    display: block;
     color: var(--desaturated-blue);
 }
 .card-content__plan-info span.text-bold {
@@ -123,6 +126,7 @@ main {
     font-weight: 700;
     color: var(--bright-blue);
     margin: 0 .5rem;
+    transition: all .4s ease;
 }
 .card-content a:hover {
     color: var(--active-blue);
